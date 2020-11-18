@@ -1,0 +1,38 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 28px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 0;
+    text-rendering: geometricPrecision;
+}
+
+h1,
+h2,
+h3,
+p {
+    font-weight: 400;
+    color: white;
+}
+
+.description {
+    position: absolute;
+}
+
+svg {
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+}
+
+rect {
+    fill: olivedrab;
+    stroke: none;
+    stroke-width: 1.5px;
+}
+
+text {
+    font-size: 5px;
+    fill: black;
+}
